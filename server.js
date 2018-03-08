@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
     // res.send('<h1> Hello Exporess </h1>');
     res.render('index.hbs', {
         pageTitle: 'Home Page',
-        welcome: 'Welcome to node web server.'
+        welcome: 'Welcome to node web server'
     });
 
     // res.send({
